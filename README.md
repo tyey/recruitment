@@ -1,4 +1,5 @@
 # Recruitment project
-Yotpo recruitment
+
+Build project with `./gradlew clean build`
 
 Good Luck!
