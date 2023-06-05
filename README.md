@@ -7,6 +7,6 @@ Your task is to:
 * Implement endpoints which:
   * allow to get all reviews of a product,
   * allow to add new review for existing product.
-* Add openAPI with swaggerUI to test your solution.
+* Add swaggerUI to test your solution.
 
 Good Luck!
