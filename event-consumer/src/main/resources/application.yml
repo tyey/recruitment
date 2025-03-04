@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: yotpoRecruitmentEventConsumer
+server:
+  port: 8082

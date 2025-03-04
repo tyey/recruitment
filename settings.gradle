@@ -1,4 +1,6 @@
 rootProject.name = 'recruitment'
 include 'review-source'
-include 'review-destination'
+include 'event-producer'
+include 'event-consumer'
+include 'environment'
 

@@ -11,3 +11,12 @@ CREATE TABLE IF NOT EXISTS reviews (
     stars VARCHAR(20) NOT NULL,
     FOREIGN KEY (product_id) references products(id)
 );
+
+CREATE TABLE IF NOT EXISTS customer_events (
+   id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+   customer_id INT NOT NULL,
+   page VARCHAR(50) NOT NULL,
+   item VARCHAR(50) NOT NULL,
+   amount DECIMAL NOT NULL,
+   timestamp TIMESTAMP NOT NULL
+);
