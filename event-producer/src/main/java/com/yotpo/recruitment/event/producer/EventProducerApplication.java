@@ -1,13 +1,13 @@
-package com.yotpo.recruitment.consumer;
+package com.yotpo.recruitment.event.producer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DestinationApplication {
+public class EventProducerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DestinationApplication.class, args);
+        SpringApplication.run(EventProducerApplication.class, args);
     }
 
 }
